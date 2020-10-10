@@ -1,0 +1,73 @@
+#wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+nav {
+	width: 100%;
+}
+header {
+	width: 100%;
+	background-color: rgb(226, 227, 216);
+	text-align: center;
+}
+header h1 {
+		padding: 20px;
+		color: black;
+		text-shadow: 1px 1px 15px #cbc915;
+}
+header img {
+			width: 100%;
+			max-width: 500px;
+}
+main {
+			width: 100%;
+}
+main {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+}
+main article {
+	width: 100%;
+	padding: 10px;
+	border-bottom: solid 1px rgb(226, 230, 7);
+}
+main h2 {
+	padding-bottom: 5px;
+}
+#menyen {
+		order: 1px;
+}
+#tekstheader {
+	order: 0;
+}
+#animasjon {
+	order: 2; grey;
+}
+main {
+	order: 3;
+	flex-wrap: nowrap;
+}
+
+main article {
+	padding: 10px;
+	border: none;
+}
+footer {
+	background-color: #b8b8b0;
+	padding: 2rem;
+	color: #020101;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer a {
+	color: #f8f6f6;
+}
+
+footer a:hover {
+	color: #5bfed7;
+}
+.container {
+	display: block;
+}
